@@ -13,3 +13,14 @@
 # Załóż, że druga liczba nie jest zerem (obsługę zera dodasz w labie 03).
 
 # TODO: Twój kod poniżej
+liczba_1 = float(input("Podaj pierwszą liczbe : "))
+liczba_2 = float(input("Podaj drugą liczbe : "))
+if liczba_2 != 0:
+    print(f"""Dodawanie : {liczba_1 + liczba_2}
+Odejmowanie: {liczba_1 - liczba_2}
+Mnozenie: {liczba_1 * liczba_2}
+Dzielenie: {liczba_1 * liczba_2}
+Reszta z dzielenia: {liczba_1 % liczba_2}
+Potęgowanie: {liczba_1 ** liczba_2} """)
+
+
